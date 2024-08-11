@@ -19,15 +19,25 @@ export default function MovieList() {
                 language: 'pt-BR'
             }
         }).then(response => {
-            setMovies(response.data.results)
-            console.log(response.data.results)
-         })
+            setMovies(response.data.results);            
+        })
     }
 
     return (
         <ul className="movie-list">
             {movies.map((movie) =>
-                <li></li>
+                <li className = 'movie-card'>
+                    <p>
+                        {movie.title}                       
+                    </p>                    
+                    <p className = 'description'>
+                        {movie.overview}
+                    </p>
+                    <img
+                     src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
+                     alt=""
+                     />
+                </li>
             )}
             
         </ul>
