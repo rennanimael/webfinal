@@ -1,0 +1,59 @@
+.aboutContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+    h1 {
+      font-size: 2.8rem;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 1.2rem;
+      color: #7f8c8d;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+  
+    .list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+  
+      li {
+        font-size: 1.3rem;
+        color: #34495e;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: color 0.3s ease;
+  
+        &:before {
+          content: '🎬'; /* Ícone personalizado */
+          margin-right: 10px;
+          font-size: 1.5rem;
+        }
+  
+        &:hover {
+          color: #2980b9;
+        }
+      }
+    }
+  
+    .subContainer {
+      margin-top: 30px;
+  
+      h2 {
+        font-size: 2rem;
+        color: #2c3e50;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  

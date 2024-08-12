@@ -8,7 +8,7 @@ export default function Navbar(){
             <h1 className = "page-title">Filmes</h1>
             </Link>
 
-            <Link href ="/about">
+            <Link href ="/pages/Sobre">
             <p className='about-page'>About us</p>  
             </Link>       
                           
