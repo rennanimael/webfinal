@@ -3,13 +3,13 @@ import './page.scss'
 export default function Page() {  
 
   return (
-    <div className= 'aboutContainer'>
+    <div className= "aboutContainer">
     <h1>Sobre nós</h1>
     <p>
-      Essa aplicação web foi desenvolvida num domingo, por isso o nome 'Domingo Flix', 
+      Essa aplicação web foi desenvolvida num domingo, por isso o nome &apos;Domingo Flix&apos;, 
       trata-se de um website de filmes, desenvolvido com:
     </p>
-    <ul className = 'list'>
+    <ul className = "list">
       <li><a href="https://react.dev" target='_blank'  rel="noopener noreferrer">React</a></li>
       <li><a href="https://www.typescriptlang.org/" target='_blank'  rel="noopener noreferrer">Typescript</a></li>
       <li><a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">Nextjs</a></li>
