@@ -3,13 +3,17 @@
     flex-direction: column;
     background-color: #0f172a;
     padding: 12px 3%;
+    align-items: center;
 
     .page-title {
         color:#fff;
+        margin: 0;
+        width: fit-content;
     }
-    .about-page{
+    .about-page{        
         color:#fff;
-        font-size: 12px;
+        font-size: 12px;       
+        
     }
     .home {
         color:#fff;
